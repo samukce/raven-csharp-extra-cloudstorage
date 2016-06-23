@@ -1,11 +1,11 @@
-# Extension for Sentry (https://github.com/samukce/raven-csharp)
+# Extension for RavenCsharp (Sentry)
 
 Extension for ravensharp-sentry to send long file text to storage.
 Usefull when it is have a long text to analyse.
 
 # Usage
 
-Before you have to read the main project https://github.com/samukce/raven-csharp
+Before you have to read the main project https://github.com/getsentry/raven-csharp
 
 So, with sentryEvent is possible send a log file to storage of the Microsoft Storage.
 
