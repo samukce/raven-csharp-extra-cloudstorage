@@ -10,7 +10,7 @@ Before you have to read the main project https://github.com/getsentry/raven-csha
 So, with sentryEvent is possible send a log file to storage of the Microsoft Storage.
 
 ```csharp
-sentryEvent.WithCredenctials("accountname", "keyValue")
+sentryEvent.WithCredentials("accountname", "keyValue")
                            .ToContainername("containerName")
                            .SendToStorage("logmessage", "subfolder");
 ```
