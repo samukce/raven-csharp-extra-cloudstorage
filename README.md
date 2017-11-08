@@ -11,8 +11,8 @@ So, with sentryEvent is possible send a log file to storage of the Microsoft Sto
 
 ```csharp
 sentryEvent.WithCredentials("accountname", "keyValue")
-                           .ToContainername("containerName")
-                           .SendToStorage("logmessage", "subfolder");
+           .ToContainername("containerName")
+           .SendToStorage("logmessage", "subfolder");
 ```
 
 Get it!
